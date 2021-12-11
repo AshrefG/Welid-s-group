@@ -58,7 +58,7 @@ public class Magasin {
 	    }
 	    
 	    
-	    
+	    // chercher Produit 
 	    public boolean chercherProduit(Produit p){
 	        for(int i=0;i<cmp;i++)
 	            if(prods[i].comparer(p))
@@ -72,5 +72,22 @@ public class Magasin {
 	                return i;
 	        return -1;
 	    }
+	    
+	    // supprimer produit
+	    public void supprimerProduit(Produit p){
+	        int pos=indexOfProduit(p);
+	        //1ere maniere
+        if(pos!=-1 && pos!=cmp-1){
+	            for(int i=pos;i<cmp-1;i++)
+	                prods[i]=prods[i+1];
+	            cmp--;
+        }else if(pos==cmp-1){
+            prods[cmp-1]=null;
+            cmp--;
+        }
+	           
+	       
+	    }
+	    
 	    
 	    
