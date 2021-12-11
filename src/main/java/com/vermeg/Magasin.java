@@ -17,4 +17,13 @@ public class Magasin {
 	    public Magasin() {
 	        prods=new Produit[CAPACITE];
 	        emps=new Employe[20];
-}
+	    }
+// add constructeur
+	    public Magasin(int id, String nom, String adresse) {
+	        this.id = id;
+	        this.nom = nom;
+	        this.adresse = adresse;
+	        prods=new Produit[CAPACITE];
+	        emps=new Employe[20];
+
+	    }
