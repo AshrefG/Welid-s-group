@@ -34,3 +34,14 @@ public class Magasin {
 	            cmp_emp++;
 	        }
 	    }
+	    
+	    // add products
+	    public void ajouterProduit(Produit p){
+	        if(cmp<CAPACITE ){
+	            if(!chercherProduit(p)){
+	            prods[cmp]=p;
+	            cmp++;
+	            totale++;
+	            }else System.out.println("Le produit existe deja");
+	        }else System.out.println("Capacite Max = 50");
+	    }
