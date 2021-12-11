@@ -88,6 +88,11 @@ public class Magasin {
 	           
 	       
 	    }
-	    
+	    // comparer Magasin
+	    public static Magasin comparerMagasin(Magasin m1,Magasin m2){
+	        if(m1.cmp>m2.cmp)
+	            return m1;
+	        else return m2;
+	    }
 	    
 	    
