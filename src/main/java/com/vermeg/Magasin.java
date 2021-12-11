@@ -45,3 +45,15 @@ public class Magasin {
 	            }else System.out.println("Le produit existe deja");
 	        }else System.out.println("Capacite Max = 50");
 	    }
+	    
+	    
+	    @Override
+	    public String toString(){
+	        String s="";
+	        for(int i=0;i<cmp;i++)
+	            s+=prods[i].getLibelle()+" "+prods[i].getPrix();
+	        for(int i=0;i<cmp_emp;i++)
+	            s+=emps[i].toString();
+	        return "Id = "+id+" , nom = "+nom+" , adresse = "+adresse+", les produits : "+s;
+	    }
+	    
