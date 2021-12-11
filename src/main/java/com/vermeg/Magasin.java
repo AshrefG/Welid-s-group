@@ -57,3 +57,20 @@ public class Magasin {
 	        return "Id = "+id+" , nom = "+nom+" , adresse = "+adresse+", les produits : "+s;
 	    }
 	    
+	    
+	    
+	    public boolean chercherProduit(Produit p){
+	        for(int i=0;i<cmp;i++)
+	            if(prods[i].comparer(p))
+	                return true;
+	        return false;
+	    }
+	    
+	    public int indexOfProduit(Produit p){
+	        for(int i=0;i<cmp;i++)
+	            if(prods[i].comparer(p))
+	                return i;
+	        return -1;
+	    }
+	    
+	    
