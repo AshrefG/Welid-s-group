@@ -75,8 +75,13 @@ public class Produit {
 	                + ""+libelle+" ,Marque : "+marque+" , prix : "+prix);
 	    } 
 	    
+	    // to string 
 	    
-	    
+	    @Override
+	    public String toString(){
+	       return "ID :"+identifiant+" , Libelle : "
+	                + ""+libelle+" ,Marque : "+marque+" , prix : "+prix+", Date : "+date_expiration;
+	    }
 	    
 	    
 }
