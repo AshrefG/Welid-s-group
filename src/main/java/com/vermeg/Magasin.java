@@ -95,4 +95,15 @@ public class Magasin {
 	        else return m2;
 	    }
 	    
+	    // sommeSalaireCaissier
+	    public float sommeSalaireCaissier(){
+	        
+	    }
+	    // sommePrimeResponsable
+	    public float sommePrimeResponsable(){
+	        
+	    }
+	    
+	}
+
 	    
