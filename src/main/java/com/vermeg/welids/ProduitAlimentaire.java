@@ -64,4 +64,25 @@ public class ProduitAlimentaire {
 	    public float getPrix() {
 	        return prix;
 	    }
+	    
+	    public void afficher(){
+	        System.out.println("ID :"+identifiant+" , Libelle : "
+	                + ""+libelle+" ,Marque : "+marque+" , prix : "+prix);
+	    }
+	    
+	    @Override
+	    public String toString(){
+	       return "ID :"+identifiant+" , Libelle : "
+	                + ""+libelle+" ,Marque : "+marque+" , prix : "+prix+", Date : "+date_expiration;
+	    }
+	    
+	    
+	    public boolean comparer(ProduitAlimentaire p){
+	        return this.identifiant==p.identifiant&& this.libelle.equals(p.libelle) && this.prix==p.prix;
+	    }
+	    
+	    public static boolean comparer(ProduitAlimentaire p1,ProduitAlimentaire p2){
+	       
+	         return p1.identifiant==p2.identifiant&& p1.libelle.equals(p2.libelle) && p1.prix==p2.prix;
+	    }
 }
