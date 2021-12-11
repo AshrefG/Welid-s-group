@@ -9,4 +9,12 @@ public class Magasin {
 	   public int cmp=0;
 	   public static int totale=0;
 
+// modification 	   
+	   public Employe[] emps;
+	    public int cmp_emp;
+	    
+
+	    public Magasin() {
+	        prods=new Produit[CAPACITE];
+	        emps=new Employe[20];
 }
