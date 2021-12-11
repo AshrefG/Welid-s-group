@@ -27,7 +27,7 @@ public class Magasin {
 	        emps=new Employe[20];
 
 	    }
-	    
+	    // ajouter Employe 
 	    public void ajouterEmploye(Employe e){
 	        if(cmp_emp<20){
 	            emps[cmp_emp]=e;
