@@ -1,6 +1,10 @@
 package com.vermeg.welids;
 
-public class Caissier {
-    //System.out.println('test 1');
+public class Caissier extends Employe{
     
+    private int numCaisse;
+
+    public Caissier() {
+     //  super();
+    }
 }
