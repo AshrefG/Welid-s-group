@@ -25,4 +25,21 @@ public class Caissier extends Employe{
       public void setNumCaisse(int numCaisse) {
           this.numCaisse = numCaisse;
       }
+
+      @Override
+    public String toString() {
+        return "Caissier [numCaisse=" + numCaisse + "]";
+    }
+
+    @Override
+    public float calculerSalaire() {
+        System.out.println("salaire caissier");
+        if(nbr_heure>180)
+            return (nbr_heure-180)*5.75f+180*5;
+        return nbr_heure*5;
+    }
+
+    public void tester(){
+        System.out.println("Caissier");
+    }
 }
