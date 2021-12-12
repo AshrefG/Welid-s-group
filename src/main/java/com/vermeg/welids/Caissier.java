@@ -1,5 +1,6 @@
 package com.vermeg.welids;
 
 public class Caissier {
-    System.out.println('test 1');
+    //System.out.println('test 1');
+    
 }
