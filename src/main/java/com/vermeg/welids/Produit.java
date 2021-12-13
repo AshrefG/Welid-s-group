@@ -29,7 +29,7 @@ public class Produit {
 	        this.prix=prix;
 	         }
 	    	}
-	    // les getters and setterss
+	    // les getters and setters
 	    public int getIdentifiant(){
 	        return identifiant;
 	    }
