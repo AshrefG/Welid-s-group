@@ -96,9 +96,21 @@ public class Magasin {
 	    }
 	    
 	    // sommeSalaireCaissier
-	    public float sommeSalaireCaissier(){
-	        
-	    }
+		
+	public float sommeSalaireCaissier() {
+		Object somme;
+		for(int i=0;i<emps.length;i++){
+			Caissier c1 = null ;
+			return somme = somme + ((Object) c1).calculerSalaire();
+			}
+		return (float) somme ;
+			
+			
+			
+		}
+	
+	
+	
 	    // sommePrimeResponsable
 	    public float sommePrimeResponsable(){
 	        
