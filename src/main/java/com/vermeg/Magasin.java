@@ -112,10 +112,29 @@ public class Magasin {
 	
 	
 	    // sommePrimeResponsable
-	    public float sommePrimeResponsable(){
-	        
-	    }
-	    
+	
+	public float sommePrimeResponsable() {
+		
+		float somme = 0  ;
+		int cmp_emp = 0;
+		for (int i=0 ;i<cmp_emp;i++) {
+			Responsable[] emps = null;
+			if (emps[i] instanceof Responsable ) 
+				somme= +  ( emps[i]).calculerSalaire(); 
+			somme=(float) +  ((Responsable)emps[i] ).getPrime() ; 
+			return somme ; 
+			}
+		
+		
+		return somme ; 
 	}
 
+
+	
+}
+
+
+		
+		
+	
 	    
