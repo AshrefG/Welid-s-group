@@ -3,6 +3,7 @@ package com.vermeg.welids;
 // 15/12/2021
 ///message message
 //fadhel's commit here
+
 import com.vermeg.*;
 public class App 
 {
@@ -10,5 +11,7 @@ public class App
     {
     	Caissier c1 = new Caissier(555);
     	c1.calculerSalaire();
+    	
+    	//committt
     }
 }
