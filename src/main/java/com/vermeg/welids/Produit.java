@@ -11,7 +11,7 @@ public abstract class Produit {
 	   private String marque;
 	   private float prix;
 	   private Date date_expiration;
-	    
+	    //
 	    public Produit(){}
 	    // constructeur 
 	    public Produit(int identifiant,String libelle,String marque){
