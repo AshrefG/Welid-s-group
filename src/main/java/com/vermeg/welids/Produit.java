@@ -4,7 +4,7 @@ package com.vermeg.welids;
 import java.util.Date;
 
 
-public class Produit {
+public abstract class Produit {
 	// les attributs 
 	private int identifiant;
 	   private String libelle;
@@ -70,7 +70,7 @@ public class Produit {
 	        return prix;
 	    }
 	    
-	    public void afficher(){
+	    public  void afficher(){
 	        System.out.println("ID :"+identifiant+" , Libelle : "
 	                + ""+libelle+" ,Marque : "+marque+" , prix : "+prix);
 	    } 
@@ -82,6 +82,9 @@ public class Produit {
 	       return "ID :"+identifiant+" , Libelle : "
 	                + ""+libelle+" ,Marque : "+marque+" , prix : "+prix+", Date : "+date_expiration;
 	    }
+	    
+	    public abstract boolean comparer(Produit p) ;
+	    public abstract boolean comparer(Produit p1 ,Produit p2) ;
 	    
 	    
 }
