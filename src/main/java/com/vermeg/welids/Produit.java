@@ -3,15 +3,20 @@ package com.vermeg.welids;
 import java.util.Date;
 
 
+<<<<<<< HEAD
 
 
 public class Produit {
+=======
+public abstract class Produit {
+	// les attributs
+>>>>>>> taher_branch
 	private int identifiant;
 	   private String libelle;
 	   private String marque;
 	   private float prix;
 	   private Date date_expiration;
-	    
+	    // push
 	    public Produit(){}
 	    
 	    public Produit(int identifiant,String libelle,String marque){
@@ -27,10 +32,16 @@ public class Produit {
 	         if(prix>0) {
 	        	 
 	        this.prix=prix;
+<<<<<<< HEAD
 	         }
 	         }
 	         
 	    
+=======
+	         } // l
+	    	}
+	    // les getters and setters
+>>>>>>> taher_branch
 	    public int getIdentifiant(){
 	        return identifiant;
 	    }
