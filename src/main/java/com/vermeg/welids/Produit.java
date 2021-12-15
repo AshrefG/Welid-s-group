@@ -5,13 +5,13 @@ import java.util.Date;
 
 
 public abstract class Produit {
-	// les attributs 
+	// les attributs
 	private int identifiant;
 	   private String libelle;
 	   private String marque;
 	   private float prix;
 	   private Date date_expiration;
-	    
+	    //
 	    public Produit(){}
 	    // constructeur 
 	    public Produit(int identifiant,String libelle,String marque){
