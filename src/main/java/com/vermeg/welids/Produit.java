@@ -27,7 +27,7 @@ public abstract class Produit {
 	         if(prix>0) {
 	        	 
 	        this.prix=prix;
-	         } //
+	         } // l
 	    	}
 	    // les getters and setters
 	    public int getIdentifiant(){
