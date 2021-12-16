@@ -16,12 +16,23 @@ import java.util.Date;
 // 15/12/2021
 ///message message
 //fadhel's commit here
+<<<<<<< HEAD
+
+import com.vermeg.*;
+=======
 //another commit to push updated repo in my branch named fdl
 //>>>>>>> 7f6428e1f70294c2e401ba5030a9d1066f1a29ca
+>>>>>>> 60d0d32ebb1077334bbb4501b6f1ba95715c2024
 public class App 
 {
     public static void main( String[] args )
     {
+<<<<<<< HEAD
+    	Caissier c1 = new Caissier(555);
+    	c1.calculerSalaire();
+    	
+    	//committt
+=======
 <<<<<<< HEAD
     	   // TODO code application logic here
         // System.out.println("Test");
@@ -89,6 +100,7 @@ public class App
     	Employe e5 = new Employe(5,"fadhel","bardo",45);
     	
 >>>>>>> 7f6428e1f70294c2e401ba5030a9d1066f1a29ca
+>>>>>>> 60d0d32ebb1077334bbb4501b6f1ba95715c2024
     }
 
 }
