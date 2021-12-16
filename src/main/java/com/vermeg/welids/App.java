@@ -11,12 +11,13 @@ import entite.Vendeur;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-=======
+//=======
 // another commit
 // 15/12/2021
 ///message message
 //fadhel's commit here
->>>>>>> 7f6428e1f70294c2e401ba5030a9d1066f1a29ca
+//another commit to push updated repo in my branch named fdl
+//>>>>>>> 7f6428e1f70294c2e401ba5030a9d1066f1a29ca
 public class App 
 {
     public static void main( String[] args )
